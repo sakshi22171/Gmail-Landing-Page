@@ -1,0 +1,615 @@
+  *,
+  *::before,*::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Noto Sans JP', sans-serif;
+} 
+
+
+
+
+.Hero-Section-desktop{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 72px;
+ background: rgb(212, 252, 212);
+ 
+ margin: 100px;
+ 
+  }
+  .Hero-Section-mobile{
+    background: rgb(201, 197, 228);
+    margin: 15px;
+  }
+
+  .Hero-Section-desktop img{
+  width: 115%;
+  margin-right: 90px;
+ 
+  }
+
+  .Hero-Section-desktop h1{
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 50px;
+    line-height: 1.25;
+    margin-top: 0;.
+  }
+  
+  .Hero-Section-desktop p{
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 48px;
+    
+  }
+
+  .Hero-Section-desktop .btn{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 48px;
+    padding: 10px;
+    width: 50%;
+    
+  }
+ 
+
+
+  .Take-Action-right-from-the-Box-desktop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+  }
+
+  .Take-Action-right-from-the-Box-desktop img{
+    width: 130%;
+  }
+
+ .Take-Action-right-from-the-Box-desktop h2{
+   text-align: center;
+   line-height: 1;
+   font-size: 35px;
+   margin-bottom: 50px;
+   
+   line-height: 1;
+   margin-top: 20px;
+ }
+ .Take-Action-right-from-the-Box-desktop p{
+   text-align: left;
+   line-height: 1.5;
+   margin-bottom: 48px;
+ }
+ .Take-Action-right-from-the-Box-mobile img{
+   width: 100%;
+ }
+ .Take-Action-right-from-the-Box-mobile {
+   background: rgb(230, 216, 207);
+   margin: 65px;
+ }
+ .Take-Action-right-from-the-Box-desktop{
+   background: rgb(236, 235, 221);
+   margin: 65px;
+ }
+ .Avoid-Suspicious-Mails-desktop .h2{
+  text-align: left;
+  margin-bottom: 50px;
+  font-size: 45px;
+}
+.Avoid-Suspicious-Mails-desktop p{
+  text-align: right;
+  margin-top: 20px;
+}
+
+ .Avoid-Suspicious-Mails-desktop{
+   background: rgb(243, 236, 234);
+   margin: 65px;
+ }
+ .Avoid-Suspicious-Mails-mobile{
+   background: rgb(195, 231, 195);
+   margin: 65px;
+ }
+ .Avoid-Suspicious-Mails-mobile img{
+   width: 100%;
+ }
+ 
+ 
+  
+
+@media (min-width: 800px){
+
+  * {
+  font-size: 10px;
+}
+}
+
+
+.mr-auto{
+  margin-right: auto;
+  
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #666;
+}
+a:hover{
+  color: black;
+}
+
+
+header{
+  background: white;
+  box-shadow: 0  0 4px 4px #ddd;
+  width: 100%;
+  /*position: fixed; */
+  }
+
+  .clear {
+    height: 112px;
+  }
+
+.header-mobile nav{
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding: 0 2.6%;
+  border-bottom: 1px solid #ddd;
+  word-spacing: 2px;
+}
+
+.header-desktop nav{
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0 2.6%;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+header img{
+  height: 36px;
+ 
+}
+
+.btn{
+  color: white;
+  background: #1a73e8;
+  padding: 0 31px;
+  font-size: 15px;
+  line-height: 36px;
+  border-radius: 4px;
+  letter-spacing: 0.75px;
+  font-weight: 500px;
+}
+
+.btn:hover{
+color: white;
+background: #174ea6;
+}
+
+
+.gmail-logo-text{
+  font-size: 24px;
+  color:black;
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+footer{
+  padding: 32px 16px;
+  background: #eee8e8;;
+}
+footer img{
+  height: 60px;
+  margin-bottom: 30px;
+
+  
+}
+
+footer nav{
+  margin: 30px 0;
+}
+
+footer ul {
+display: flex;
+list-style-type: none;
+margin: 20px;
+}
+
+footer li {
+  margin-right: 15px;
+  font-size: 17px;
+ 
+}
+
+
+footer select {
+  margin-left: 100px;
+ background: color #f5d3d3;
+  padding: 10px;
+ width: 200px;
+ margin-bottom: 100px;
+}
+
+.help-icon{
+  color: white;
+  font-weight: 600;
+  background: black;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  text-align:center;
+  border-radius: 99px;
+  margin-right: 8px;
+ 
+
+}
+
+
+/* sections*/
+section{
+ padding: 80px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+h1,h2{
+
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 43px;
+ 
+}
+
+p{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  margin: 15px;
+}
+
+
+
+
+.Create Gmail Account > * + * {
+  margin: 28px 0;
+  height: auto;
+}
+
+.Create Gmail Account img{
+  height: 72px;
+}
+
+.Create Gmail Account .btn{
+  line-height: 50px;
+  padding: 10px;
+  width: 70px;
+}
+
+.Experience-Gmail-Section img{
+  height: 48px;
+ 
+}
+
+.m4{
+  margin: 50px;
+}
+.m3{
+  margin: 35px;
+}
+
+
+.Devices-Section img{
+  width: 100%;
+
+}
+
+.Hero-Section img{
+   width: 100%;
+   
+}
+.Hero-Section-mobile img{
+  width: 100%;
+}
+
+.Stay-Organise-Instantly img{
+  width: 100%;
+ 
+  margin: 50px;
+}
+
+
+.Never-Drop-Ball-section img{
+width: 100%;
+margin: 50px;
+}
+.Never-Drop-Ball-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Take-Action-right-from-the-Box img{
+   width: 100%;
+   
+}
+.Take-Action-right-from-the-Box{
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.Avoid-Suspicious-Mails img{
+
+width: 100%;
+}
+
+.Hero-Section,.Never-Drop-Ball-section,.Stay-Organise-Instantly,.Take-Action-right-from-the-Box,.Avoid-Suspicious-Mails {
+
+  background: #e0d9d9;
+ 
+}
+.mobile-only{
+
+}
+
+.desktop-only {
+  display: none;
+}
+
+.header-mobile{
+  position: fixed;
+}
+
+.header-desktop{
+  position: fixed;
+  height: 64px;
+}
+
+.header-desktop a{
+ margin-left: 20px;
+}
+
+.header-desktop .btn{
+  line-height: 48px;
+}
+
+
+
+
+@media (min-width:800px){
+  .h1{
+    font-size: 45px;
+  }
+  .h2{
+    font-size: 90px;
+  }
+  .mobile-only{
+      display: none;
+  }
+
+  .desktop-only{
+    display: block;
+  }
+  
+
+  .Hero-Section-desktop{
+    display: grid;
+   }
+
+   .Take-Action-right-from-the-Box-desktop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 130px;
+    margin-top: 130px;
+  }
+  .Take-Action-right-from-the-Box-desktop img{
+    width: 100%;
+  }
+  .Avoid-Suspicious-Mails-desktop{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-bottom: 100px;
+   margin-top: 100px;
+  }
+ .Avoid-Suspicious-Mails-desktop img{
+   width: 100%;
+   margin-top: 100px;
+ }
+}
+/*------------------------------------------------------------------------------------------------------------*/
+/*create account*/
+/*-------------------------------------------------------------------------------------------------------------*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 5%;
+  height: 5%;
+}
+
+ .logo{
+  width: 100px;
+  
+ }
+
+ #eye{
+   width: 27px;
+   position: relative;
+   top: -20px;
+   display: block;
+   cursor: pointer;
+ }
+ .iconeye{
+   display: inline-block;
+ }
+ .main{
+   width: 100%;
+   
+ }
+ form{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: 50px;
+   transform: translate(-50%,-50%);
+   border: 1px solid #d5d2d2;
+   border-radius: 10px;
+   width: 650px;
+   padding: 25px;
+ }
+ h3{
+   position: relative;
+   margin: -10px 0 0 13px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   letter-spacing: 1px;
+}
+h4{
+  position: relative;
+  margin: 13px;
+  font-size: 15px;
+}
+input{
+  border: 1px solid #381212;
+  border-radius: 5px;
+  height: 30px;
+  padding: 10px;
+  font-size: 10px;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+input.focus{
+  border: 1.5px solid #1f52f9;
+}
+.name{
+  display: inline-block;
+}
+input[type="name"]{
+  display: block;
+  margin: 30px 0 0 10px;
+ }
+ input[type="username"]{
+   display: block;
+   margin: 10px 0 0 10px;
+   width: 390px;
+ }
+ .gmail{
+   position: relative;
+   display: block;
+   top: -47px;
+   left: 310px;
+   font-family: 'Times New Roman', Times, serif;
+   color: #333;
+   font-size: 15px;
+   cursor: default;
+ }
+ .pass{
+   display: inline-block;
+ }
+ .password{
+   display: block;
+   width: 200px;
+   margin: 0 5px 0 10px;
+ }
+ a{
+   display: block;
+   position: relative;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: none;
+ }
+ .line1{
+  font-size: 15px;
+  margin: -30px 0 0 15px;
+  font-style: oblique;
+  letter-spacing: normal;
+}
+.line2{
+  color: #1144ed;
+  font-size: 15px;
+  margin: 20px 0 20px 15px;
+}
+.line3{
+  font-size: 15px;
+  margin: -15px 0 0 15px;
+  width: 210px;
+  font-style: oblique;
+  letter-spacing: normal;
+}
+.line4{
+  font-size: 15px;
+  font-style: normal;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: #4971f6;
+  margin-right: 20px;
+  font-family: arial rounded mt;
+}
+input[type="submit"]{
+  background: #4971f6;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin: 40px 0 30px 180px;
+}
+input[type="submit"]{
+  background: #254fdb;
+}
+label{
+  position: relative;
+  top: -28px;
+  font-size: 13px;
+  left: 20px;
+  color:#d5d2d2
+  pointer-events: none;
+ transition: .2s all;
+}
+input:focus ~ label,
+input:valid ~ label{
+  top: -49px;
+  left: 15px;
+  background: rgb(226, 197, 197);
+  padding: 0 5px;
+  font-size: 15px;
+  color: #1f52f9;
+}
+.side-image{
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 50%;
+  transform: translate(50%,50%);
+  
+}
+.side-logo{
+  width: 190px;
+  display: block;
+  ;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*sign in */
+
